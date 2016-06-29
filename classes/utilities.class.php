@@ -29,5 +29,35 @@ final class Utilities {
         }
         return $fullPath;
     }
+
+    /**
+     * Gets the path to include a controller file
+     * 
+     * @param   string  $controller Name of controller to include
+     * @return  string
+     */
+    static public function includeController($controller) {
+        return self::getPath("controls", $controller . CONTROL_EXTENSION);
+    }
+
+    /**
+     * Gets the path to include a javascript file
+     * 
+     * @param   string  $jsScript   Name of js script to include
+     * @return  string
+     */
+    static public function includeJS($jsScript) {
+        return self::getPath("js", $jsScript . JS_EXTENSION);
+    }
+
+    /**
+     * Gets the path to include a style sheet file
+     * 
+     * @param   string  $cssScript  Name of css script to include
+     * @return  string
+     */
+    static public function includeCSS($cssScript) {
+        return self::getPath("css", $cssScript . CSS_EXTENSION);
+    }
 }
 ?>

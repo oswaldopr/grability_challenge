@@ -46,7 +46,7 @@ class Template extends Smarty {
      * @return  void
      */
     private function includeTemplateCSS() {
-        $file = Utilities::getPath("css", $this->_template . CSS_EXTENSION);
+        $file = Utilities::includeCSS($this->_template);
         if($file != "") {
             $script = '<link type="text/css" rel="stylesheet" href="' . $file . '" />';
             $this->assign("templateCSS", $script);
@@ -59,7 +59,7 @@ class Template extends Smarty {
      * @return  void
      */
     private function includeTemplateJS() {
-        $file = Utilities::getPath("js", $this->_template . JS_EXTENSION);
+        $file = Utilities::includeJS($this->_template);
         if($file != "") {
             $script = '<script type="text/javascript" src="' . $file . '"></script>';
             $this->assign("templateJS", $script);
