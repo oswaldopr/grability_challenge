@@ -1,2 +1,2 @@
-# grability_challenge
+# Grability Challenge
 Prueba para el proceso de selección de Grability

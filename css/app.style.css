@@ -9,9 +9,9 @@ body {
 }
 
 input[type="button"] {
-    border: 1px solid #962313;
+    border: 1px solid #239613;
     color: white;
-    background-color: #962313;
+    background-color: #239613;
     margin-top: 2px;
     padding: 4px;
     font-family: verdana;
@@ -20,6 +20,6 @@ input[type="button"] {
 }
 
 input[type="button"]:hover {
-    background-color: #FF4F32;
-    box-shadow: 0px 0px 2px #962313;
+    background-color: #4DDD32;
+    box-shadow: 0px 0px 2px #239613;
 }
