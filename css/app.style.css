@@ -8,11 +8,18 @@ body {
     cursor: default;
 }
 
+input[type="text"] {
+    font-family: courier;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #239613;
+    padding: 2px;
+}
+
 input[type="button"] {
     border: 1px solid #239613;
     color: white;
     background-color: #239613;
-    margin-top: 2px;
     padding: 4px;
     font-family: verdana;
     font-size: 12px;

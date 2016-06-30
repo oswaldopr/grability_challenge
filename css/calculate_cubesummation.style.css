@@ -1,0 +1,63 @@
+/*
+ * CSS Sheet for cube summation UI
+ */
+body {
+    margin: 8px;
+    font-family: verdana;
+    color: #239613;
+}
+
+#spnTag {
+    font-style: italic;
+    color: gray;
+}
+
+#divInputData {
+   width: 90%;
+   padding: 3px 0px;
+}
+
+#divInputData span {
+    float: right;
+}
+
+#tfInputData {
+    width: 60%;
+}
+
+#taInputData {
+    width: 90%;
+    height: 10em;
+    margin: 4px 0px;
+    font-family: courier;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #239613;
+}
+
+#btnCancel {
+    color: #239613;
+    background-color: #89FC79;
+}
+
+#btnCancel:hover {
+    color: #89FC79;
+    background-color: #239613;
+}
+
+div#title {
+    font-weight: bold;
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.error span {
+    color: #CA4535;
+}
+
+#btnBack {
+    margin-top: 8px;
+}
